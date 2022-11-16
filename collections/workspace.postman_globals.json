@@ -1,0 +1,21 @@
+{
+	"id": "5dd3d59c-0e25-4359-8981-686527226357",
+	"values": [
+		{
+			"key": "departmenId",
+			"value": "1",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "employeeId",
+			"value": "1",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2022-11-16T19:14:35.712Z",
+	"_postman_exported_using": "Postman/10.2.3"
+}

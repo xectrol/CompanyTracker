@@ -25,11 +25,14 @@ public class EmployeeEntity {
     @Id
     private String id;
 
+    @NotNull
     private String firstName;
 
+    @NotNull
     private String lastName;
 
     @JsonFormat(pattern = "yyyy-MM-dd", shape = JsonFormat.Shape.STRING)
+    @NotNull
     private String birthDate;
 
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)

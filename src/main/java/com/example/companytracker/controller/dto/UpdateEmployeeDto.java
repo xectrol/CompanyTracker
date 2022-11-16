@@ -11,8 +11,8 @@ import javax.validation.constraints.Size;
 @Setter
 @Builder
 public class UpdateEmployeeDto {
+    @NotEmpty(message = "Id cannot be empty!")
     private String id;
-    @NotEmpty(message = "FirstName cannot be empty!")
     @Size(max = 64)
     private String firstName;
     @Size(max = 64)
